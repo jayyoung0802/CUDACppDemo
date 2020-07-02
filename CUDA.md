@@ -17,6 +17,7 @@
 
 - CUDA程序执行流程
 - 
+
 	1. 分配host内存，并进行数据初始化；
 	2. 分配device内存，并从host将数据拷贝到device上；
 	3. 调用CUDA的核函数在device上完成指定的运算；
